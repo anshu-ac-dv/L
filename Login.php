@@ -1,11 +1,11 @@
 <?php
-include"header.php";
-include"includes/IncDBDetails.php";
-session_start();
-if(isset($_SESSION['empid']) && isset($_SESSION['admin']))
-{
-	header('Location:index.php');
-}
+	include"header.php";
+	include"includes/IncDBDetails.php";
+	session_start();
+	if(isset($_SESSION['empid']) && isset($_SESSION['admin']))
+	{
+		header('Location:index.php');
+	}
 ?>
 
 <!doctype html>

@@ -20,3 +20,4 @@ session_start();
 	else{
 		echo "You need to Log in.";
 	}
+?>
