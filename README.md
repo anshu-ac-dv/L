@@ -10,7 +10,7 @@ Password    :- Ankita@@123
 Email       :- anshu.ac.dv@gmail.com
 Password    :- Anshu@@123
 
-# Devloped By :
+# Developed By :
 
 1. Ankita Kumari (Full-Stack Devloper)
 2. Anshu Kumar (Full-Stack Devloper)
