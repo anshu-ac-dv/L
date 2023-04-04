@@ -14,7 +14,7 @@
 <img style="float:left;padding:5px" src="../Home.jpg" width="50" height="50"></img>
 <strong style="font-size:60px;">Employee Leave Manager</strong>
 </a>
-<a href="../logout.php" ><img title="Logout" src="../logout.png" width="50" height="50" style="float:right; padding:10px;"></img></a>
+<a href="../logout.php" ><img title="Logout" src="../logout.png" width="50" height="50" style="float:right; padding:10px;">Logout</img></a>
 </div>
 </nav>
 </header>

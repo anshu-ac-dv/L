@@ -4,24 +4,24 @@ include '../includes/IncDBDetails.php';
 session_start();
 ?>
 
-
 <?php
-$sql = "select * from wit_lv_config where 1=1;";
-$result = mysqli_query($Connect,$sql);
-$row = mysqli_fetch_assoc($result);
-if(isset($_SESSION['admin']) && isset($_SESSION['empid']))
-{
-	if(!$_SESSION['admin']=='Y'){
-		echo "Admin Rights are needed.";
+	$sql = "select * from wit_lv_config where 1=1;";
+	$result = mysqli_query($Connect,$sql);
+	$row = mysqli_fetch_assoc($result);
+	if(isset($_SESSION['admin']) && isset($_SESSION['empid']))
+	{
+		if(!$_SESSION['admin']=='Y'){
+			echo "Admin Rights are needed.";
+			exit();
+			}
+	}
+	else
+	{
+		echo"You need to Log in.";
 		exit();
-		}
-}
-else
-{
-	echo"You need to Log in.";
-	exit();
-}
+	}
 ?>
+
 <!Doctype html>
 <head>
 </head>

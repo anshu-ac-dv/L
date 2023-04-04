@@ -27,7 +27,8 @@ if(isset($_SESSION['empid']) && isset($_SESSION['admin']))
 }
 else{
 	echo"<li><a href='SignUp.php'>Sign Up</a></li>";
-	echo"<li><a href='Login.php'>Log in</a></li>";
+	echo"<li><a href='Login.php'>Employee Login</a></li>";
+	echo"<li><a href='Login.php'>Admin Login</a></li>";
 }
 echo "</ul>
 		</body>
