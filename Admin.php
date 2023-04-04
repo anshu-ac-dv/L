@@ -1,7 +1,7 @@
 <?php
-include"header.php";
-include"includes/IncDBDetails.php";
-session_start();
+	include"header.php";
+	include"includes/IncDBDetails.php";
+	session_start();
 ?>
 
 <?php
@@ -16,6 +16,7 @@ session_start();
 			}
 	}
 ?>
+
 <!Doctype html>
 <head>
 </head>
