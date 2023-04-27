@@ -7,6 +7,7 @@ session_start();
 echo"<!doctype html>
 		<head>
 			<title>Employee Leave Management System</title>
+			
 		</head>
 		<body>
 		<ul>
