@@ -1,13 +1,12 @@
 <?php
-include"header.php";
-session_start();
+	include"header.php";
+	session_start();
 ?>
 
 <?php
 echo"<!doctype html>
 		<head>
 			<title>Employee Leave Management System</title>
-			
 		</head>
 		<body>
 		<ul>
@@ -38,4 +37,3 @@ echo "</ul>
 
 	
 ?>
-

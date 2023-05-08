@@ -1,7 +1,7 @@
 <?php
-include"header.php";
-include"../includes/IncDBDetails.php";
-session_start();
+	include"header.php";
+	include"../includes/IncDBDetails.php";
+	session_start();
 ?>
 <?php
 if(isset($_POST['submit']))
@@ -9,7 +9,6 @@ if(isset($_POST['submit']))
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 		$sql = "select * from wit_lv_emp_mast where (emp_eml='$email' and login_pwd='$password') or (emp_id='$email' and login_pwd='$password ');";
-
 		$result = mysqli_query($Connect,$sql);
 		$resultcheck = mysqli_num_rows($result);
 		if($resultcheck==true)
